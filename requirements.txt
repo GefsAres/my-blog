@@ -17,4 +17,5 @@ git config --global user.email you@example.com
 
 git status - показывет какие изменения на компе в сравнении с git
 
-git add - отправляет файлы в git
+git add --all - отправляет файлы в git
+git commit -m "My Django Girls app, first commit"
