@@ -1,0 +1,25 @@
+Django~=2.0.6
+
+myvenv\Scripts\activate
+python manage.py migrate
+python manage.py runserver
+python manage.py startapp blog
+
+python manage.py makemigrations blog
+python manage.py migrate blog
+
+python manage.py createsuperuser
+
+#git reposit
+git init
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+
+git status - показывет какие изменения на компе в сравнении с git
+
+git add --all - отправляет файлы в git
+git commit -m "My Django app, first commit"
+
+https://github.com/GefsAres/my-blog.git
+
+ebeb3900b0655e6ffcd5cc1537f04e355765b81a

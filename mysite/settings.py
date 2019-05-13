@@ -25,7 +25,7 @@ SECRET_KEY = '8nbh&-@5q+zkstg6bbs1$-$+bjymj1$_6l1a6s&y9#2caiiv1d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', ' gefsares.pythonanywhere.com']
 
 
 # Application definition
@@ -120,3 +120,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
